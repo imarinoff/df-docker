@@ -62,7 +62,7 @@ services:
 #      - ../dreamfactory-development-packages:/src/dreamfactory
     build: .
     ports:
-      - "80:80"
+      - "5855:80"
 
 #  Uncomment to enable Logs DB
 #  logsdb:
